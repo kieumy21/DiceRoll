@@ -16,12 +16,24 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         app:srcCompat="@drawable/empty_dice">
-
+    </ImageView>
+    <ImageView
+        android:id="@+id/dice_image2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/empty_dice">
     </ImageView>
     <Button
         android:id="@+id/roll_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/roll_lable"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/roll_dell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
         android:layout_gravity="center_horizontal"/>
 </LinearLayout>
